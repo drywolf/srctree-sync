@@ -1,0 +1,27 @@
+{
+  "name": "srctree-sync",
+  "version": "0.5.0",
+  "description": "Tool to share repository bookmarks in Atlassian SourceTree with project members",
+  "main": "sts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "stsync": "./bin/stsync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://drywolf@github.com/drywolf/srctree-sync.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drywolf/srctree-sync/issues"
+  },
+  "homepage": "https://github.com/drywolf/srctree-sync#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "nodegit": "^0.9.0",
+    "xml2js": "^0.4.16"
+  }
+}
